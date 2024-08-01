@@ -1,0 +1,24 @@
+{
+	"name": "mb-backend",
+	"version": "0.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node app.js",
+		"dev": "nodemon app.js",
+		"format": "prettier --write \"src/**/*.ts\"",
+		"lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix"
+	},
+	"author": "erickgermani13@gmail.com",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.19.2",
+		"multer": "^1.4.5-lts.1"
+	},
+	"devDependencies": {
+		"@rushstack/eslint-patch": "^1.10.4",
+		"eslint": "^9.8.0",
+		"nodemon": "^3.1.4",
+		"prettier": "^3.3.3"
+	}
+}
