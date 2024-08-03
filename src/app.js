@@ -1,4 +1,4 @@
-const ValidationError = require('./src/errors/ValidationError');
+const ValidationError = require('./errors/ValidationError');
 
 const express = require('express');
 const multer = require('multer');
