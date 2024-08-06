@@ -1,6 +1,6 @@
 {
 	"name": "mb-backend",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "",
 	"main": "src/app.js",
 	"type": "commonjs",
@@ -15,8 +15,9 @@
 	"author": "erickgermani13@gmail.com",
 	"license": "ISC",
 	"dependencies": {
+		"cors": "^2.8.5",
 		"express": "^4.19.2",
-		"multer": "^1.4.5-lts.1"
+		"path": "^0.12.7"
 	},
 	"devDependencies": {
 		"@faker-js/faker": "^8.4.1",

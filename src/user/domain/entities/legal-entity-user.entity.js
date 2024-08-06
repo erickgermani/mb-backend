@@ -37,6 +37,11 @@ class LegalEntityUserEntity extends UserEntity {
 		this.openedAt = openedAt;
 	}
 
+	/**
+	 * Retorna a classe no formato JSON
+	 *
+	 * @returns {*}
+	 */
 	toJSON() {
 		return {
 			...super.toJSON(),

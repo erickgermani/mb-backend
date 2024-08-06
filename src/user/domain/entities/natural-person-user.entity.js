@@ -43,6 +43,11 @@ class NaturalPersonUserEntity extends UserEntity {
 		this.birthday = birthday;
 	}
 
+	/**
+	 * Retorna a classe no formato JSON
+	 *
+	 * @returns {*}
+	 */
 	toJSON() {
 		return {
 			...super.toJSON(),

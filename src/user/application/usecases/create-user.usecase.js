@@ -3,7 +3,7 @@ const NaturalPersonUserEntityFactory = require('../../domain/entities/factory/na
 const BadRequestError = require('../errors/bad-request-error');
 
 class CreateUserUseCase {
-	execute(input) {
+	static execute(input) {
 		const { personType, email, phone, password } = input;
 
 		if (!email || !phone || !password)
